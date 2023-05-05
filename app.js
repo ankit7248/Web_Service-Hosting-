@@ -29,7 +29,6 @@ app.use(studentRouter);
 //     })
 // })
 
-
 app.listen(port, () => {  // call the port no. 
     console.log(`connection is setup at ${port}`);  // check our connection is successful or not
 })
